@@ -18,4 +18,6 @@
         massiv=massiv2;
     }
  } while (m!="");
+ string[]massiv3 = Array.FindAll(massiv, person => person.Length <= 3);
+ foreach (var person in massiv3) Console.WriteLine(person);
  
